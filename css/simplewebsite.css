@@ -1,0 +1,259 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.homepage {
+  background-color: #ff4c68;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(225, 211, 211);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 32px 0;
+}
+.title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.mainHomePage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.homepageText > h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+.homepageText {
+  padding-bottom: 72px;
+}
+
+.apple {
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: #343a40;
+  color: #fff;
+}
+.andriod {
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: #fff;
+  margin-left: 10px;
+}
+.andriod:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+}
+.apple:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+/* target */
+.target {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.tic {
+  text-align: center;
+}
+.love-icon {
+  color: #eb8090;
+}
+.love-icon:hover {
+  color: #ff4c68;
+}
+.fa-solid {
+  color: #eb8090;
+}
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.circle {
+  text-align: center;
+}
+.love {
+  text-align: center;
+}
+.love > p {
+  color: gray;
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+}
+.tic > p {
+  color: gray;
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+}
+.circle > p {
+  color: gray;
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+}
+/* testimonial here */
+.testimonial {
+  background-color: #ef8172;
+}
+.testimonial-main {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.testiText > h1 {
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.testpicture {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.testpicture > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.testimonial-main {
+  text-align: center;
+}
+.testibrand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  margin-top: 50px;
+}
+.testibrand > img {
+  height: 100px;
+  width: 150px;
+}
+.testpicture > p {
+  font-size: 20px;
+}
+.testpicture {
+  width: 30%;
+  margin: auto;
+  padding-top: 50px;
+}
+/* pricing */
+.pricing {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.cardHandler {
+  display: flex;
+  justify-content: space-between;
+}
+.pricing > h1 {
+  font-size: 3rem;
+}
+.pricing > p {
+  font-size: 1.5rem;
+}
+.card {
+  border: 1px solid gray;
+  padding: 0 100px;
+  border-radius: 5px;
+  margin-bottom: 170px;
+}
+/* .cardHead {
+  background-color: #f7f7f7;
+  border: 1px solid gray;
+} */
+.same_button {
+  padding: 10px 50px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.freebutton {
+  padding: 10px 50px;
+  border: 1px solid gray;
+  background-color: transparent;
+  color: #000;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.freebutton:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+}
+.same_button:hover {
+  cursor: pointer;
+}
+/* download */
+.download {
+  background-color: #ff4c68;
+}
+.dow__content {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+.dow__content > p {
+  font-size: 4rem;
+  color: #fff;
+}
+/* contact */
+.contact {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+.contact > p {
+  color: gray;
+}
+.brand-social {
+  margin: 10px;
+  color: #000;
+}
+.brand-social:hover {
+  color: black;
+  cursor: pointer;
+}
